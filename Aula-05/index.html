@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            BOAS VINDAS!
+        </h1>
+        <p>
+            Texte abaixo a inclusão de tarefas :)
+        </p>
+        <input class="input_tarefa" id="input_tarefa" type="text" placeholder="Digite aqui a tarefa">
+        <p class="msg" id="msg"></p>
+        <div id="botoes">
+            <button onclick="Adicionar_Tarefa()" class="botao" id="botao_adicionar">
+                Adicionar
+            </button>
+            <button onclick="Excluir_Tudo()" class="botao" id="botao_excluir_tudo">
+                Excluir tudo
+            </button>
+        </div>
+        <ul class="lista_tarefas" id="lista_tarefas"></ul>
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
