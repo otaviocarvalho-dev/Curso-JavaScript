@@ -1,0 +1,142 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    line-height: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    max-width: 100vw;
+    font-size: 1.6rem;
+    background-color: #3c0000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    width: 50%;
+    text-align: center;
+    background-color: #fff3cd;
+}
+
+h1 {
+    margin: 0px 0px 64px 0px;
+    font-size: 3.2rem;
+    line-height: 100%;
+    font-weight: 700;
+    color: #3C0000;
+}
+
+p {
+    margin: 0px 0px 64px 0px;
+    font-size: 2.4rem;
+}
+
+.tarefa {
+    margin-bottom: 64px;
+    font-size: 4rem;
+    color: rgb(150, 0, 0);
+}
+
+.input_tarefa {
+    font-size: 1.8rem;
+    padding: 2px 0px 0px 8px;
+    display: inline;
+    align-self: center;
+    margin-bottom: 28px;
+    width: 70%;
+    height: 3.2rem;
+    border-color: #3c0000;
+    border: 2px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button.botao {
+    display: inline;
+    width: 180px;
+    margin-bottom: 100px;
+    padding: 16px 20px 16px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+button#botao_adicionar {
+    background-color: #005ed8;
+}
+
+button#botao_adicionar:hover {
+    background-color: #0089e4;
+    transition: 0.2s ease;
+}
+
+button#botao_excluir_tudo {
+    background-color: #ce0e00;
+}
+
+button#botao_excluir_tudo:hover {
+    background-color: #ec1000;
+    transition: 0.2s ease;
+}
+
+.lista_tarefas {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    list-style: none;
+    gap: 8px;
+}
+
+.lista_tarefas li {
+    text-align: start;
+    padding: 8px 8px 8px 12px;
+    font-size: 2.8rem;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.botoes_tarefa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    padding: 8px 12px 8px 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: solid #3c0000;
+    border-radius: 8px;
+    color: #3c0000;
+    background-color: #fff3cd;
+}
+
+.botoes_tarefa:hover {
+    cursor: pointer;
+    border: solid #aa0000;
+    color: #aa0000;
+    transition: 0.3s;
+}
+
+.msg {
+    margin: 0px 0px 28px 0px;
+    font-size: 2rem;
+    color: #252525;
+}
